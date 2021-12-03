@@ -1,0 +1,50 @@
+Otaniemen Kuparikuume 2021 Walkthrough
+
+Sinun ja muiden pelaajien tehtävä on löytää varkaiden piilottamat kuparit. Kuparit ovat piilotettu yhteen pelialueeseen, ja sinun on löydettävä tuo kuparikätkö.
+Tämä tarkoittaa sitä, että sinulla on rajoitettu määrä pelivuoroja. Yksi onnistunut toiminto merkitseee yhtä pelivuoroa.
+
+Pelin voittaa se pelaaja kuka löytää kätkön ensimmäisenä, joten sinun on pidettävä kiirettä!
+Pelin voittamiseen riittää se, että saat kuparit ensimmäisenä haltuusi. Häviät, jos et löydä kuparikätköä ennen toisia pelaajia.
+
+Pelialueiden välillä liikutaan käyttäen komentoa "go ilmansuunnan nimi". Käypiä ilmansuuntia ovat north, east, west, south.
+
+Kun pääset jollekin alueelle voit etsiä kätköä käyttäen komentoa "Search".
+Search komennolla todenmukaiseen lopputulokseen päättymisen todennäköisyys on ½, mikä siis tarkoittaa sitä, että voit olla löytämättä aarretta alueelta, vaikka se oikeasti olisikin sinne piilotettu.
+
+Tämän vuoksi sinun kannattaa etsiä käsiisi pelialueelta löytyvä metallinpaljastin, jonka avulla saat satavarman tiedon siitä, onko aarre tietyllä alueella vai ei.
+Metallinpaljastin on piilotettu aina KANDIDAATTIKESKUKSEEN, löydät sen sieltä.
+
+Metallinpaljastimen kanssa etsiminen tapahtuu komennolla “use metallinpaljastin”. Tämä komento palauttaa aina todenmukaisen tuloksen.
+
+Aalto Yliopisto on myös pyrkinyt suojelemaan kampusrakennuksia entistä enemmän, ja tästä johtuen Oppimiskeskukseen ja Kandidaattikeskukseen päästäkseen on oltava kulkulupa.
+Kulkulupana toimii hsl matkakortti. Matkakortin voi löytää pelikentältä. Aluekohtainen infolaatikko ilmoittaa sinulle onko alueella matkakorttia.
+Saatuasi matkakortin haltuusi suljetut alueet tulevat automaattisesti käytettäviksi.
+
+Matkakortin sijainti pelikentällä on satunnainen, joten se voi sijaita missä tahansa paitsi ns. suljetuilla alueilla kuten kandikeskuksessa ja Oppimiskeskuksessa.
+
+Kuparikätkön sijainti on myös satunnainen, se voi sijaita missä tahansa, myös suljetulla alueella.
+Pidä mielessäsi, että "search" komento ei takaa todenmukaista informaatiota siitä onko kuparikätkö alueella. Kuparikätkö saattaa hyvinkin olla kyseisellä alueella vaikka search väittää että et löytänyt mitään.
+Sinun täytyy vain tarkistaa jokainen alue metallinpaljastimen avulla, jotta löydät kuparit.
+
+Muita hyödyllisiä komentoja:
+
+Komento "inventory" näyttää hallussasi olevat esineet
+Komennon "examine esineen nimi" avulla voit saada lisätietoja kyseisestä esineestä. Alueella olevia esineitä voit poimia komennolla "get esineen nimi".
+Esineitä voi vastaavasti tiputtaa komennolla "drop esineen nimi".
+Komennolla "quit" voit päättää pelin suoraan, esimerkiksi jos peli muuttuu liian jännäksi.
+
+Mikäli alueellasi on "sähköpotkulauta" voit käyttää komentoa "travel alueen nimi", ja matkustat tuolle alueelle automaattisesti yhden vuoron aikana.
+Sähköpotkulautaa voi käyttää vain kerran.
+
+"Map" - komennolla saat listan pelialueen alueista, ja mahdollisista alueista, joille voit matkustaa sähköpotkulaudan avulla. Map komento avaa myös näytölle kartan pelialueesta, jonka voit sulkea milloin haluat.
+
+Pelissä on mukana myös "kuparivaras". Kuparivaras on vihollinen, joka saattaa hyökätä kimppuusi tietyillä alueilla. Varkaan sijainti on satunnainen.
+Varkaan hyökätessä sinulla on mahdollisuus joko hyökätä varkaan kimppuun tai yrittää juosta pakoon. Hyökkäämisessä sinulla on 1/3 todennäköisyys voittaa varas.
+Jos voitat, niin tällöin saat kuulustella varasta, ja saat 1/2 todennäköisyydellä aarteen sijainnin häneltä.
+Jos taas häviät, niin menetät kaksi pelivuoroa.
+
+Jos päätät juosta pakoon, niin sinulla on 1/2 todennäköisyys päästä pakoon, jos et pääse pakoon, menetät kaksi pelivuoroa.
+
+Kun taistelet varkaan kanssa et menetä pelivuoja. Päätös taistella varkaan kanssa vaikuttaa myös lopputeksteihin.
+
+
